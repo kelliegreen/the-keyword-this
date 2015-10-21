@@ -116,21 +116,5 @@ setTimeout(getUsername.call(user), 5000);
 
 
 
-var one = {
-  name: 'Ryan',
-  sayName: function() {
-    return('Hello, my name is ' + this.name);
-  }
-};
-
-
-var two = {
-  name: 'Dan'
-};
-
-var newSayName = one.sayName.bind(two);
-
-var helloMessage = newSayName();
-
 
 
